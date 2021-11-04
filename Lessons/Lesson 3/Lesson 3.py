@@ -1,0 +1,1 @@
+pupils = ['Igor' , 'Vany']
