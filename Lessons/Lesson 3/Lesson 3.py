@@ -25,3 +25,16 @@ for sum in numbers:
     suma += int(numbers)
 
 print(suma)
+
+fruit = ['Apple' , 'banana' , 'water']
+
+need = 'water'
+
+for need_food in fruit:
+    print(fruit)
+    if fruit == need:
+        print (need ,'in menu')
+        break
+else:
+    print(need ,'not in menu')
+
