@@ -3,5 +3,5 @@ second = int(input('Второе число: '))
 num = range(first , second)
 sum = 0 
 for number in num:
-    sum += int(num)
+    sum += int(number)
     print (sum)
