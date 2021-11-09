@@ -28,7 +28,7 @@ print(suma)
 
 fruit = ['Apple' , 'banana' , 'water']
 
-need = 'water'
+need = 'banana'
 
 for need_food in fruit:
     print(fruit)
