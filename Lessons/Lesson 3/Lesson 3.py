@@ -15,7 +15,8 @@ num = range(left , right) #Num for num range
 sum = 0 
 
 for q in num :
-    print(num)
+    sum += int(q)
+    print(sum)
     
 
 numbers = input().split()  #Split 
@@ -32,7 +33,7 @@ need = 'banana'
 
 for need_food in fruit:
     print(fruit)
-    if fruit == need:
+    if need_food == need:
         print (need ,'in menu')
         break
 else:

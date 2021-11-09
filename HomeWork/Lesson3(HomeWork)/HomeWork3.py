@@ -1,8 +1,8 @@
 Trevel = ['Николаев','Турция','Крым']
 Next_Trevel = input('Место:')
-for Treverling in Trevel:
+for Treveling in Trevel:
     print (Trevel)
-    if Trevel == Next_Trevel:
+    if Treveling == Next_Trevel:
         print(Next_Trevel,'поїздка не перший раз')
         break
 else:
