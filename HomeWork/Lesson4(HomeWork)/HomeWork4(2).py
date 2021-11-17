@@ -16,6 +16,7 @@ for shop in Telephone:
         print  (Telephone[2])
         break
 for sum in shop:
+    k = int(input('Введите цену(мин): '))
     c = int(input('Введите цену(макс): '))
-    if c <= shop[2]:
+    if c and k <= shop[2]:
         print (shop)
